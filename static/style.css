@@ -1,13 +1,13 @@
 /* --- Base Setup --- */
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f0f2f5;
+    background-color: rgb(53, 52, 52);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    color: #333;
+    color: #ffffff;
 }
 
 /* --- Chat Container --- */
@@ -16,9 +16,9 @@ body {
     max-width: 600px;
     height: 90vh;
     max-height: 800px;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(145, 143, 143, 0.701);
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -26,8 +26,8 @@ body {
 
 #chat-header {
     padding: 20px;
-    border-bottom: 1px solid #e0e0e0;
-    background-color: #fafafa;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,8 +68,8 @@ body {
 }
 
 .message.user {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color: #000000;
+    color: white;
     border-bottom-right-radius: 5px;
     align-self: flex-end;
 }
@@ -103,8 +103,8 @@ body {
 #chat-input-area {
     display: flex;
     padding: 20px;
-    border-top: 1px solid #e0e0e0;
-    background-color: #fafafa;
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     gap: 10px;
 }
 
